@@ -321,7 +321,7 @@ void MenuSM::stateGame(Event *event)
 	}
 	else if (game_->process(event))
 	{
-		TRANSITION(stateGameOver, event, Event::ForwardEntry);
+		LOAD_EFFECT_STANDART(stateGameOver, event, Event::ForwardEntry);
 	}
 }
 
@@ -329,7 +329,7 @@ void MenuSM::stateGameOver(Event *event)
 {
 	if (event->onEntry())
 	{
-		LOAD_EFFECT_BEGIN(stateGameOver, event);
+		//LOAD_EFFECT_BEGIN(stateGameOver, event);
 		display_->loadsGameCofig();
 		if (game_ != nullptr)
 		{
