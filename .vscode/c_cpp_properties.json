@@ -1,0 +1,62 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "d:/Felix/Documents/Tek2You/Bausätze/Tetris/Firmware/LED-Matrix-Games-Console/include",
+                "d:/Felix/Documents/Tek2You/Bausätze/Tetris/Firmware/LED-Matrix-Games-Console/src",
+                "D:/Felix/.platformio/packages/framework-arduino-avr-minicore/cores/MiniCore",
+                "D:/Felix/.platformio/packages/framework-arduino-avr-minicore/variants/standard",
+                "D:/Felix/.platformio/packages/framework-arduino-avr-minicore/libraries/AVR_examples/src",
+                "D:/Felix/.platformio/packages/framework-arduino-avr-minicore/libraries/EEPROM/src",
+                "D:/Felix/.platformio/packages/framework-arduino-avr-minicore/libraries/Optiboot_flasher/src",
+                "D:/Felix/.platformio/packages/framework-arduino-avr-minicore/libraries/SPI/src",
+                "D:/Felix/.platformio/packages/framework-arduino-avr-minicore/libraries/SPI1/src",
+                "D:/Felix/.platformio/packages/framework-arduino-avr-minicore/libraries/SoftwareSerial/src",
+                "D:/Felix/.platformio/packages/framework-arduino-avr-minicore/libraries/Wire/src",
+                "D:/Felix/.platformio/packages/framework-arduino-avr-minicore/libraries/Wire1/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "d:/Felix/Documents/Tek2You/Bausätze/Tetris/Firmware/LED-Matrix-Games-Console/include",
+                    "d:/Felix/Documents/Tek2You/Bausätze/Tetris/Firmware/LED-Matrix-Games-Console/src",
+                    "D:/Felix/.platformio/packages/framework-arduino-avr-minicore/cores/MiniCore",
+                    "D:/Felix/.platformio/packages/framework-arduino-avr-minicore/variants/standard",
+                    "D:/Felix/.platformio/packages/framework-arduino-avr-minicore/libraries/AVR_examples/src",
+                    "D:/Felix/.platformio/packages/framework-arduino-avr-minicore/libraries/EEPROM/src",
+                    "D:/Felix/.platformio/packages/framework-arduino-avr-minicore/libraries/Optiboot_flasher/src",
+                    "D:/Felix/.platformio/packages/framework-arduino-avr-minicore/libraries/SPI/src",
+                    "D:/Felix/.platformio/packages/framework-arduino-avr-minicore/libraries/SPI1/src",
+                    "D:/Felix/.platformio/packages/framework-arduino-avr-minicore/libraries/SoftwareSerial/src",
+                    "D:/Felix/.platformio/packages/framework-arduino-avr-minicore/libraries/Wire/src",
+                    "D:/Felix/.platformio/packages/framework-arduino-avr-minicore/libraries/Wire1/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60104",
+                "ARDUINO_AVR_ATmega328P",
+                "F_CPU=8000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATmega328P__",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "compilerPath": "D:/Felix/.platformio/packages/toolchain-atmelavr/bin/avr-gcc.exe",
+            "compilerArgs": [
+                "-mmcu=atmega328p",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

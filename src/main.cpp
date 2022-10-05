@@ -22,11 +22,11 @@
 #include "event.h"
 #include "menu_sm.h"
 
-FUSES = {
-	 LFUSE_DEFAULT | (byte)~FUSE_CKDIV8, // run at 8MHz
-	 HFUSE_DEFAULT & FUSE_EESAVE,          // protect EEPROM from erase
-	 EFUSE_DEFAULT,
-};
+//FUSES = {
+//	 LFUSE_DEFAULT | (byte)~FUSE_CKDIV8, // run at 8MHz
+//	 HFUSE_DEFAULT & FUSE_EESAVE,          // protect EEPROM from erase
+//	 EFUSE_DEFAULT,
+//};
 
 Event event;
 Display dp(16, 8);
